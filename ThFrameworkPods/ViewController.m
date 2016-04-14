@@ -10,6 +10,10 @@
 #import "Person.h"
 //#import "FBKVOController.h"
 #import "Studio.h"
+#import "LoginController.h"
+#import "LoginActivity.h"
+#import "NSObject+RACPropertySubscribing.h"
+#import "RACSignal+Operations.h"
 //#import <KVOController/KVOController.h>
 
 @interface ViewController ()
@@ -36,17 +40,10 @@
     personOne.pName
             = @"defaultName";
 
-    ThKVO
-            = [ThKOVController controllerWithObserver:self];
-
-    [ThKVO
-            observe:personOne keyPath:@"pName" options:NSKeyValueObservingOptionNew block:^(id observer, Person * object, NSDictionary *change) {
-
-
-        self.title = object.pName;
-
-
-    }];
+    [RACObserve(personOne, pName)
+            subscribeNext:^(NSString* x){
+                self.title = x;
+            }];
 }
 
 - (void)updateClockWithDateChange:(NSString *)str {
@@ -66,6 +63,10 @@
     personOne.pName
             = [NSString stringWithFormat:@"inject_newName%d",nums];
     NSLog(@"new--> %@",personOne.pName);
+
+    controller = [[LoginActivity alloc] init];
+
+    [self.navigationController pushViewController:controller animated:YES];
 
 }
 @end

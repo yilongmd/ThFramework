@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "ThMacro.h"
+#import "ITable.h"
 
-@interface ThActivity : UIViewController
+//加入HTML+CSS UI
+@interface ThActivity : ITable
 
 
 

@@ -10,6 +10,8 @@
 #import "ThKOVController.h"
 
 @class Person;
+@class LoginController;
+@class LoginActivity;
 
 @interface ViewController : UIViewController
 {
@@ -17,6 +19,7 @@
 
     Person  *personOne;
     ThKOVController *ThKVO;
+    LoginActivity *controller;
 }
 
 - (IBAction)btntestclick:(UIButton *)sender;

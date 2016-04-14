@@ -60,6 +60,9 @@
 		path = [[NSBundle mainBundle] pathForResource:name ofType:ext];
 	}else{
 		path = [[NSBundle mainBundle] pathForResource:name ofType:@"xml"];
+//		if (path == nil || path.length<=0) {
+//			path = [[NSBundle mainBundle] pathForResource:name ofType:@"html"];
+//		}
 	}
 	return [IViewLoader viewWithContentsOfFile:path];
 }

@@ -43,6 +43,8 @@ target "ThFrameworkPods" do
 #  #弹出AlertView
 #  pod 'WCAlertView'
 
- #KVO架构ViewController
- pod 'KVOController'
+#KVO架构ViewController
+  pod 'KVOController'
+#响应式变成,代替代理,KVO等
+  pod 'ReactiveCocoa'
 end
