@@ -7,9 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ThKOVController.h"
+
+@class Person;
 
 @interface ViewController : UIViewController
+{
+    NSString *data;
 
+    Person  *personOne;
+    ThKOVController *ThKVO;
+}
 
+- (IBAction)btntestclick:(UIButton *)sender;
 @end
 
