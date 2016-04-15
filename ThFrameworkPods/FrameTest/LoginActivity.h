@@ -10,6 +10,10 @@
 
 #import "ThActivity.h"
 
+@class LoginViewModel;
+
 @interface LoginActivity : ThActivity
 
+
+@property(nonatomic, strong) LoginViewModel *loginViewModel;
 @end

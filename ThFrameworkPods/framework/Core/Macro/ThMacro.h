@@ -251,8 +251,11 @@ return self; \
 		+ (NSString *)property_##name { return macro_string( macro_join(__VA_ARGS__) ); }
 
 //现在OC已经可以支持变量之间声明在
-#define	ThDefVarO( type, name ) \
+#define	DefVar( type, name ) \
 		property (nonatomic, strong) type name
+
+#define	DefAssign( type, name ) \
+		property (nonatomic, assign) type name
 
 //使用ARC和不使用ARC
 #if __has_feature(objc_arc)
@@ -281,6 +284,128 @@ return self; \
 //安全删除对象
 
 #define SAFE_DELETE(P) if(P) { [P release], P = nil; }
+
+#pragma mark -
+
+#undef	static_property
+#define static_property( __name ) \
+		property (nonatomic, readonly) NSString * __name; \
+		- (NSString *)__name; \
+		+ (NSString *)__name;
+
+#undef	def_static_property
+#define def_static_property( __name, ... ) \
+		macro_concat(def_static_property, macro_count(__VA_ARGS__))(__name, __VA_ARGS__)
+
+#undef	def_static_property0
+#define def_static_property0( __name ) \
+		dynamic __name; \
+		- (NSString *)__name { return [NSString stringWithFormat:@"%s", #__name]; } \
+		+ (NSString *)__name { return [NSString stringWithFormat:@"%s", #__name]; }
+
+#undef	def_static_property1
+#define def_static_property1( __name, A ) \
+		dynamic __name; \
+		- (NSString *)__name { return [NSString stringWithFormat:@"%@.%s", A, #__name]; } \
+		+ (NSString *)__name { return [NSString stringWithFormat:@"%@.%s", A, #__name]; }
+
+#undef	def_static_property2
+#define def_static_property2( __name, A, B ) \
+		dynamic __name; \
+		- (NSString *)__name { return [NSString stringWithFormat:@"%@.%@.%s", A, B, #__name]; } \
+		+ (NSString *)__name { return [NSString stringWithFormat:@"%@.%@.%s", A, B, #__name]; }
+
+#undef	def_static_property3
+#define def_static_property3( __name, A, B, C ) \
+		dynamic __name; \
+		- (NSString *)__name { return [NSString stringWithFormat:@"%@.%@.%@.%s", A, B, C, #__name]; } \
+		+ (NSString *)__name { return [NSString stringWithFormat:@"%@.%@.%@.%s", A, B, C, #__name]; }
+
+#undef	alias_static_property
+#define alias_static_property( __name, __alias ) \
+		dynamic __name; \
+		- (NSString *)__name { return __alias; } \
+		+ (NSString *)__name { return __alias; }
+
+#pragma mark -
+
+#undef	integer
+#define integer( __name ) \
+		property (nonatomic, readonly) NSInteger __name; \
+		- (NSInteger)__name; \
+		+ (NSInteger)__name;
+
+#undef	def_integer
+#define def_integer( __name, __value ) \
+		dynamic __name; \
+		- (NSInteger)__name { return __value; } \
+		+ (NSInteger)__name { return __value; }
+
+#pragma mark -
+
+#undef	unsigned_integer
+#define unsigned_integer( __name ) \
+		property (nonatomic, readonly) NSUInteger __name; \
+		- (NSUInteger)__name; \
+		+ (NSUInteger)__name;
+
+#undef	def_unsigned_integer
+#define def_unsigned_integer( __name, __value ) \
+		dynamic __name; \
+		- (NSUInteger)__name { return __value; } \
+		+ (NSUInteger)__name { return __value; }
+
+#pragma mark -
+
+#undef	number
+#define number( __name ) \
+		property (nonatomic, readonly) NSNumber * __name; \
+		- (NSNumber *)__name; \
+		+ (NSNumber *)__name;
+
+#undef	def_number
+#define def_number( __name, __value ) \
+		dynamic __name; \
+		- (NSNumber *)__name { return @(__value); } \
+		+ (NSNumber *)__name { return @(__value); }
+
+#pragma mark - Bee
+
+#undef	string
+#define string( __name ) \
+		property (nonatomic, readonly) NSString * __name; \
+		- (NSString *)__name; \
+		+ (NSString *)__name;
+
+#undef	def_string
+#define def_string( __name, __value ) \
+		dynamic __name; \
+		- (NSString *)__name { return __value; } \
+		+ (NSString *)__name { return __value; }
+
+#pragma mark -
+
+#if __has_feature(objc_arc)
+
+#define	prop_readonly( type, name )		property (nonatomic, readonly) type name;
+#define	prop_dynamic( type, name )		property (nonatomic, strong) type name;
+#define	prop_assign( type, name )		property (nonatomic, assign) type name;
+#define	prop_strong( type, name )		property (nonatomic, strong) type name;
+#define	prop_weak( type, name )			property (nonatomic, weak) type name;
+#define	prop_copy( type, name )			property (nonatomic, copy) type name;
+#define	prop_unsafe( type, name )		property (nonatomic, unsafe_unretained) type name;
+
+#else
+
+#define	prop_readonly( type, name )		property (nonatomic, readonly) type name;
+#define	prop_dynamic( type, name )		property (nonatomic, retain) type name;
+#define	prop_assign( type, name )		property (nonatomic, assign) type name;
+#define	prop_strong( type, name )		property (nonatomic, retain) type name;
+#define	prop_weak( type, name )			property (nonatomic, assign) type name;
+#define	prop_copy( type, name )			property (nonatomic, copy) type name;
+#define	prop_unsafe( type, name )		property (nonatomic, assign) type name;
+
+#endif
 
 @interface ThMacro : NSObject
 @end

@@ -10,6 +10,7 @@
 #import "IKit.h"
 #import "NSObject+RACSelectorSignal.h"
 #import "ReactiveCocoa.h"
+#import "LoginViewModel.h"
 
 @implementation LoginActivity
 
@@ -22,9 +23,18 @@
     [self addIViewRow:view];
     [self reload];
 
+    self.loginViewModel = [[LoginViewModel alloc] init];
     IButton *submit = (IButton *)[view getViewById:@"submit"];
     IInput *inputUser = (IInput *) [view getViewById:@"name"];
     IInput *inputPass = (IInput *) [view getViewById:@"password"];
+
+    self.loginViewModel.submit = submit;
+    self.loginViewModel.inputUser = inputUser;
+    self.loginViewModel.inputPass = inputPass;
+
+    [self.loginViewModel ViewBindWithModel];
+    [self.loginViewModel getData];
+
     [[submit.button
             rac_signalForControlEvents:UIControlEventTouchUpInside]
             subscribeNext:^(id x) {
