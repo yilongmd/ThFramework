@@ -15,4 +15,7 @@
 }
 
 
+- (void)viewWithData;
+
+- (void)dataWithView;
 @end

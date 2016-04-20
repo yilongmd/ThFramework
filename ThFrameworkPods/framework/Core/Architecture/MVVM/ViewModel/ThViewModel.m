@@ -21,6 +21,14 @@
     return self;
 }
 
+-(void) viewWithData {
+}
+
+
+-(void) dataWithView {
+
+}
+
 
 
 @end

@@ -7,10 +7,10 @@
 #import "IKit.h"
 #import "MMVMTestModel.h"
 #import "ThMacro.h"
+#import "ThViewModel.h"
 
 
-
-@interface MMVMTestViewModel : NSObject
+@interface MMVMTestViewModel : ThViewModel
 
 //Model
 @prop_strong(MMVMTestModel *,mmvmTestModel);
