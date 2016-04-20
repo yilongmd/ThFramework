@@ -32,8 +32,8 @@
     self.loginViewModel.inputUser = inputUser;
     self.loginViewModel.inputPass = inputPass;
 
-    [self.loginViewModel ViewBindWithModel];
-    [self.loginViewModel getData];
+//    [self.loginViewModel ViewBindWithModel];
+//    [self.loginViewModel getData];
 
     [[submit.button
             rac_signalForControlEvents:UIControlEventTouchUpInside]

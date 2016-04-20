@@ -8,7 +8,6 @@
 #import "IInput.h"
 #import "IButton.h"
 #import "LoginModel.h"
-#import "ThRequest.h"
 #import "ThModel+Th.h"
 #import "AFNetworking.h"
 #import "AFHTTPSessionManager.h"
@@ -32,34 +31,37 @@
 //    }];
 //    [ThHttpRequest getWithURLString:@"http://b2b.insoftb.com/UserInface/login" parameters:nil success:^(id responseObject) {
 //        DLog(@"%@",responseObject);
-//        _loginModel = [[LoginModel alloc] initWithString:responseObject error:nil];
+//        NSString *strJson = [ThJSON dictOrArrayToJSONString:responseObject];
+//        JSONModelError *error1;
+//        _loginModel = [_loginModel ThInitWithObject:responseObject];
+//        NSLog(@"Error: %@", error1);
 //    } failure:^(NSError *error) {
 //
 //    }];
 
-    @try {
-        NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
-        AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
-
-        NSURL *URL = [NSURL URLWithString:@"http://b2b.insoftb.com/UserInface/login"];
-        NSURLRequest *request = [NSURLRequest requestWithURL:URL];
-
-        NSURLSessionDataTask *dataTask = [manager dataTaskWithRequest:request completionHandler:^(NSURLResponse *response, id responseObject, NSError *error) {
-            if (error) {
-                NSLog(@"Error: %@", error);
-            } else {
-                NSLog(@"%@ %@", response, responseObject);
-                NSString *strJson = [ThJSON dictOrArrayToJSONString:responseObject];
-                JSONModelError *error1;
-                _loginModel = [_loginModel ThInitWithObject:responseObject];
-                NSLog(@"Error: %@", error1);
-            }
-        }];
-        [dataTask resume];
-    }
-    @catch (NSException *exception) {
-
-    }
+//    @try {
+//        NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+//        AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
+//
+//        NSURL *URL = [NSURL URLWithString:@"http://b2b.insoftb.com/UserInface/login"];
+//        NSURLRequest *request = [NSURLRequest requestWithURL:URL];
+//
+//        NSURLSessionDataTask *dataTask = [manager dataTaskWithRequest:request completionHandler:^(NSURLResponse *response, id responseObject, NSError *error) {
+//            if (error) {
+//                NSLog(@"Error: %@", error);
+//            } else {
+//                NSLog(@"%@ %@", response, responseObject);
+//                NSString *strJson = [ThJSON dictOrArrayToJSONString:responseObject];
+//                JSONModelError *error1;
+//                _loginModel = [_loginModel ThInitWithObject:responseObject];
+//                NSLog(@"Error: %@", error1);
+//            }
+//        }];
+//        [dataTask resume];
+//    }
+//    @catch (NSException *exception) {
+//
+//    }
 }
 
 - (void)ViewBindWithModel {

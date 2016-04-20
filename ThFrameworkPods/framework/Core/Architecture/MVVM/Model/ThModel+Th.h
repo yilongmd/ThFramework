@@ -7,9 +7,13 @@
 #import "ThModel.h"
 #import "ThMacro.h"
 
+@class YTKBaseRequest;
+
 @interface ThModel (Th)
 
 - (id)ThInitWithString:(NSString *)strJson;
+
+- (id)ThInitWithRequest:(YTKBaseRequest *)request;
 
 - (id)ThInitWithObject:(id)o;
 @end

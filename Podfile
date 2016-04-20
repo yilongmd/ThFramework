@@ -1,11 +1,11 @@
 platform :ios, '7.0'
 target "ThFrameworkPods" do
   #网络框架
-  pod 'AFNetworking'
+  # pod 'AFNetworking'
 #  #网络框架ASI
 #  pod 'ASIHTTPRequest'
 #  #正在加载
-#  pod 'MBProgressHUD'
+ pod 'MBProgressHUD'
 #  #弹出提示
 #  pod 'SVProgressHUD'
 #  #一个第三方类目控件
@@ -49,4 +49,6 @@ target "ThFrameworkPods" do
   pod 'ReactiveCocoa'
   pod 'MyLayout', '~> 1.1.5'
   pod 'FMDB'
+  pod 'YTKNetwork'
+  pod 'Toast'
 end

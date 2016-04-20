@@ -15,4 +15,15 @@
 {
     return YES;
 }
+
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        self.intChanged = [[NSNumber alloc] initWithInt:0];
+    }
+
+    return self;
+}
+
+
 @end

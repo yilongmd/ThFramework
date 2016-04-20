@@ -7,6 +7,7 @@
 //
 
 #import "TestTableViewController.h"
+#import "MMVMTestActivity.h"
 
 @interface TestTableViewController ()
 
@@ -16,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.tableView.delegate = self;
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -31,14 +32,25 @@
 
 #pragma mark - Table view data source
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
-}
+//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+//#warning Incomplete implementation, return the number of sections
+//    return 0;
+//}
+//
+//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+//#warning Incomplete implementation, return the number of rows
+//    return 0;
+//}
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSLog(@"TestTableViewController:%@", indexPath);
+    //取消选中状态
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    if (indexPath.row == 4) {
+        MMVMTestActivity *mmvmTestActivity = [[MMVMTestActivity alloc] init];
+        [self.navigationController pushViewController:mmvmTestActivity animated:YES];
+    }
+
 }
 
 /*
