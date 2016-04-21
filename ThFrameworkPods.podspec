@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.ios.deployment_target = "7.0"
   s.source       = { :git => "https://github.com/yilongmd/ThFramework.git", :tag => s.version}
-  s.source_files  = 'ThFrameworkPods/framework/*.{h,m}'
+  s.source_files  = 'ThFrameworkPods/framework/Core/*.{h,m}'
   s.requires_arc = true
   s.dependency "SSToolkit", "~> 2.0.0"
   s.dependency "JSONModel", "~> 1.2.0"
