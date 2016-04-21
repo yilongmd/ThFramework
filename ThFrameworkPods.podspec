@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ThFrameworkPods"
-  s.version      = "1.0.1"
+  s.version      = "1.0.3"
   s.summary      = "a common framework for the team."
 
   s.homepage     = "https://github.com/yilongmd/ThFramework.git"
