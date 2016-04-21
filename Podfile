@@ -9,7 +9,7 @@ target "ThFrameworkPods" do
 #  #弹出提示
 #  pod 'SVProgressHUD'
 #  #一个第三方类目控件
- pod 'SSToolkit'
+#  pod 'SSToolkit'
 #  #下拉提示
 #  pod 'TSMessages'
 #  #优秀的Web访问插件

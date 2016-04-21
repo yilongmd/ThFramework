@@ -35,31 +35,6 @@ PODS:
   - ReactiveCocoa/no-arc (2.5)
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
-  - SAMAddressBar (0.1.0)
-  - SAMBadgeView (0.1.1)
-  - SAMCategories (0.5.2)
-  - SAMCircleProgressView (0.1.1)
-  - SAMGradientView (0.2.1)
-  - SAMHUDView (0.1.3)
-  - SAMLabel (0.1.0)
-  - SAMLoadingView (0.1.0)
-  - SAMRateLimit (0.2.1)
-  - SAMTextField (0.1.2)
-  - SAMTextView (0.2.2)
-  - SAMWebView (0.2.1)
-  - SSToolkit (2.0.0):
-    - SAMAddressBar
-    - SAMBadgeView
-    - SAMCategories
-    - SAMCircleProgressView
-    - SAMGradientView
-    - SAMHUDView
-    - SAMLabel
-    - SAMLoadingView
-    - SAMRateLimit
-    - SAMTextField
-    - SAMTextView
-    - SAMWebView
   - Toast (3.0)
   - YTKNetwork (0.6.0):
     - AFDownloadRequestOperation (~> 2.0)
@@ -71,7 +46,6 @@ DEPENDENCIES:
   - KVOController
   - MBProgressHUD
   - ReactiveCocoa
-  - SSToolkit
   - Toast
   - YTKNetwork
 
@@ -83,22 +57,9 @@ SPEC CHECKSUMS:
   KVOController: 321b5fc59300fcaabd42c0f679baa7a27efbb2fd
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
-  SAMAddressBar: ca4278987cca36a65fd8d29fae3fc5f3fa732469
-  SAMBadgeView: f27d499b7f233e29277325f318a9dcdd2a8fc9e9
-  SAMCategories: bf8287f7961a0b343168d1fee16338dc1626ea39
-  SAMCircleProgressView: 8bfac68a15d1dd1e3d0c1ec411895898efed9dda
-  SAMGradientView: dd5edfe971cea0f1f3369b49f5fb255c0ff3921a
-  SAMHUDView: 374d9b53c2d52bf2e7b49e943ae66ee7ed5538b2
-  SAMLabel: 3792d68d0a04da5600420843d44ec50631695c15
-  SAMLoadingView: 7ffc4f0efe85f9717d6e367b6b93e32befe4407c
-  SAMRateLimit: 5514d7c95a4b98ff9616f965c132252fbff0c5b7
-  SAMTextField: a0f4eb5b48b45aef56453c265262b45154bc3e2a
-  SAMTextView: 979c43bb1fa5859ddfbfeb35e9c296a2b0ec55fd
-  SAMWebView: d141ed60d23f82a0cbfeeb952e93a690f55bc89f
-  SSToolkit: 6aa7a0966ee45788d0ec3748be7d753a2fef9629
   Toast: 32c59229abfcf41850162b83bb9259dc84372473
   YTKNetwork: 988660d5fab310a55895239751ecfa74c3224a77
 
-PODFILE CHECKSUM: f2181cbb939fcc6a3d13b514aa9aa972bb396711
+PODFILE CHECKSUM: 38a08feb314b7e772bf3279aad64e7f4c91a77ab
 
 COCOAPODS: 1.0.0.beta.4

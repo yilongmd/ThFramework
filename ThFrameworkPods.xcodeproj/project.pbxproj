@@ -37,7 +37,6 @@
 		1BEC673EEBD8C719E93D3391 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC62176F694A6CB291631C /* RSA.m */; };
 		1BEC676DDEEE690DBBE13C29 /* ILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC6FC57ED12F4699AE5854 /* ILabel.m */; };
 		1BEC67E4F9561BA48F8933F9 /* login.css in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC65FD5BDEEB16B6F75F32 /* login.css */; };
-		1BEC67ED8DA9921E08D7DACF /* NSString+UrlToKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC60E7F5D70CDB56ED2616 /* NSString+UrlToKey.m */; };
 		1BEC67EE16E878F0636CED11 /* IFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC61CBA8A0988B52CD6CEB /* IFlowLayout.m */; };
 		1BEC68AB70F51CC9B4A845CE /* IInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC6BDAE0B29D56D5A9552D /* IInput.m */; };
 		1BEC6908EF371F8302282A42 /* mmvmtest.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC6C23256B86891BC02FE1 /* mmvmtest.xml */; };
@@ -102,7 +101,6 @@
 		1BEC6051EF532571E90BB35B /* MMVMTestActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMTestActivity.m; sourceTree = "<group>"; };
 		1BEC6082F7F72F590620360F /* IButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IButton.h; sourceTree = "<group>"; };
 		1BEC6090806CED1CC6D11125 /* IImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IImage.m; sourceTree = "<group>"; };
-		1BEC60E7F5D70CDB56ED2616 /* NSString+UrlToKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UrlToKey.m"; sourceTree = "<group>"; };
 		1BEC61007E2F78C23507AF55 /* IPullRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPullRefresh.h; sourceTree = "<group>"; };
 		1BEC614E876FF3F1A9057C2B /* MMVMTestDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMTestDataController.h; sourceTree = "<group>"; };
 		1BEC615896612653562BD5E3 /* ThKOVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThKOVController.h; sourceTree = "<group>"; };
@@ -177,7 +175,6 @@
 		1BEC6B3B32A77BC6F6E3AD55 /* MMVMTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVMTestModel.h; sourceTree = "<group>"; };
 		1BEC6B4124783733A643E2C4 /* ICellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICellView.h; sourceTree = "<group>"; };
 		1BEC6B5B1FCEC03E1DF4FEF2 /* LoginActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginActivity.h; sourceTree = "<group>"; };
-		1BEC6B5EAA05518EE1EE1D20 /* NSString+UrlToKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UrlToKey.h"; sourceTree = "<group>"; };
 		1BEC6B62280A3772FC803BF6 /* ThJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThJSON.m; sourceTree = "<group>"; };
 		1BEC6B963E785118B55CE428 /* ITableInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITableInternal.h; sourceTree = "<group>"; };
 		1BEC6BA16F18CFBA7F2B05B7 /* MMVMTestDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVMTestDataController.m; sourceTree = "<group>"; };
@@ -576,8 +573,6 @@
 		1BEC6E3BBF7DD5E6E0194E9D /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				1BEC60E7F5D70CDB56ED2616 /* NSString+UrlToKey.m */,
-				1BEC6B5EAA05518EE1EE1D20 /* NSString+UrlToKey.h */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -924,7 +919,6 @@
 				1BEC6B39C5965F68BB4E3ECA /* ThActivity.m in Sources */,
 				1BEC69C7D8735E559DA94D5B /* ThModel.m in Sources */,
 				1BEC631B0F6B478DD9C17F2D /* ThViewModel.m in Sources */,
-				1BEC67ED8DA9921E08D7DACF /* NSString+UrlToKey.m in Sources */,
 				1BEC60807EF28A13E64C96B5 /* ThModel+Th.m in Sources */,
 				1BEC6C8469591F86B769F255 /* ThJSON.m in Sources */,
 				1BEC612FF997772242D625DC /* LoginViewModel.m in Sources */,
