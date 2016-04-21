@@ -34,114 +34,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4db6ca7f-062a-41d4-a0d4-15f089e3ddb1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/MyLayout/MyBaseLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/MyLayout/MyDimeScale.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/MyLayout/MyFloatLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/MyLayout/MyFlowLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/MyLayout/MyFrameLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/MyLayout/MyLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/MyLayout/MyLayoutDef.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/MyLayout/MyLayoutDime.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/MyLayout/MyLayoutDimeInner.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/MyLayout/MyLayoutInner.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/MyLayout/MyLayoutMeasure.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/MyLayout/MyLayoutPos.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/MyLayout/MyLayoutPosInner.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/MyLayout/MyLayoutSizeClass.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/MyLayout/MyLinearLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/MyLayout/MyMaker.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/MyLayout/MyRelativeLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Private/MyLayout/MyTableLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/MyLayout/MyBaseLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/MyLayout/MyDimeScale.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/MyLayout/MyFloatLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/MyLayout/MyFlowLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/MyLayout/MyFrameLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/MyLayout/MyLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/MyLayout/MyLayoutDef.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/MyLayout/MyLayoutDime.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/MyLayout/MyLayoutDimeInner.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/MyLayout/MyLayoutInner.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/MyLayout/MyLayoutMeasure.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/MyLayout/MyLayoutPos.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/MyLayout/MyLayoutPosInner.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/MyLayout/MyLayoutSizeClass.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/MyLayout/MyLinearLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/MyLayout/MyMaker.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/MyLayout/MyRelativeLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Headers/Public/MyLayout/MyTableLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyBaseLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyBaseLayout.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyDimeScale.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyDimeScale.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyFloatLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyFloatLayout.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyFlowLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyFlowLayout.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyFrameLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyFrameLayout.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyLayoutDef.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyLayoutDime.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyLayoutDime.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyLayoutDimeInner.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyLayoutInner.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyLayoutMeasure.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyLayoutMeasure.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyLayoutPos.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyLayoutPos.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyLayoutPosInner.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyLayoutSizeClass.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyLayoutSizeClass.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyLinearLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyLinearLayout.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyMaker.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyMaker.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyRelativeLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyRelativeLayout.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyTableLayout.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/MyLayout/Lib/MyTableLayout.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/MyLayout/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/MyLayout/MyLayout-dummy.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/MyLayout/MyLayout-prefix.pch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/MyLayout/MyLayout.xcconfig" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ThFrameworkPods.iml" afterPath="$PROJECT_DIR$/.idea/ThFrameworkPods.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile.lock" afterPath="$PROJECT_DIR$/Podfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Manifest.lock" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFDownloadRequestOperation/AFDownloadRequestOperation.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/AFDownloadRequestOperation/AFDownloadRequestOperation.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/FMDB/FMDB.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/FMDB/FMDB.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/JSONModel/JSONModel.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/JSONModel/JSONModel.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/KVOController/KVOController.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/KVOController/KVOController.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/MBProgressHUD/MBProgressHUD.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/MBProgressHUD/MBProgressHUD.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-ThFrameworkPods/Pods-ThFrameworkPods-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-ThFrameworkPods/Pods-ThFrameworkPods-acknowledgements.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-ThFrameworkPods/Pods-ThFrameworkPods-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-ThFrameworkPods/Pods-ThFrameworkPods-acknowledgements.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-ThFrameworkPods/Pods-ThFrameworkPods.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-ThFrameworkPods/Pods-ThFrameworkPods.debug.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-ThFrameworkPods/Pods-ThFrameworkPods.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-ThFrameworkPods/Pods-ThFrameworkPods.release.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/SAMAddressBar/SAMAddressBar.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SAMAddressBar/SAMAddressBar.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/SAMBadgeView/SAMBadgeView.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SAMBadgeView/SAMBadgeView.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/SAMCategories/SAMCategories.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SAMCategories/SAMCategories.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/SAMCircleProgressView/SAMCircleProgressView.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SAMCircleProgressView/SAMCircleProgressView.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/SAMGradientView/SAMGradientView.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SAMGradientView/SAMGradientView.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/SAMHUDView/SAMHUDView.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SAMHUDView/SAMHUDView.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/SAMLabel/SAMLabel.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SAMLabel/SAMLabel.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/SAMLoadingView/SAMLoadingView.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SAMLoadingView/SAMLoadingView.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/SAMRateLimit/SAMRateLimit.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SAMRateLimit/SAMRateLimit.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/SAMTextField/SAMTextField.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SAMTextField/SAMTextField.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/SAMTextView/SAMTextView.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SAMTextView/SAMTextView.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/SAMWebView/SAMWebView.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SAMWebView/SAMWebView.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Toast/Toast.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Toast/Toast.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/YTKNetwork/YTKNetwork.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/YTKNetwork/YTKNetwork.xcconfig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThFrameworkPods.podspec" afterPath="$PROJECT_DIR$/ThFrameworkPods.podspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThFrameworkPods/FrameTest/MMVMTest/MMVMTestViewModel.h" afterPath="$PROJECT_DIR$/ThFrameworkPods/FrameTest/MMVMTest/MMVMTestViewModel.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThFrameworkPods/FrameTest/MMVMTest/MMVMTestViewModel.m" afterPath="$PROJECT_DIR$/ThFrameworkPods/FrameTest/MMVMTest/MMVMTestViewModel.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThFrameworkPods/framework/Core/Architecture/MVC/Controller/ThActivity.h" afterPath="$PROJECT_DIR$/ThFrameworkPods/framework/Core/Architecture/MVC/Controller/ThActivity.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThFrameworkPods/framework/Core/Architecture/MVC/Controller/ThActivity.m" afterPath="$PROJECT_DIR$/ThFrameworkPods/framework/Core/Architecture/MVC/Controller/ThActivity.m" />
     </list>
     <ignored path="ThFrameworkPods.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -227,8 +121,8 @@
       <file leaf-file-name="Podfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Podfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="57">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -808,7 +702,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24982257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262195" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32515338" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810047" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1207,8 +1101,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Podfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="57">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
           <folding />
         </state>
       </provider>
