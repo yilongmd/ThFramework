@@ -21,5 +21,5 @@
 @prop_strong(IInput *,inputUser);
 @prop_strong(IInput *,inputPass)
 
-- (void)viewWithData;;
+
 @end

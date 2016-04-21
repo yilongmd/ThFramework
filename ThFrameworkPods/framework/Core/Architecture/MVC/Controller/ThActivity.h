@@ -85,6 +85,16 @@
 - (void)selfDismiss;
 
 /**
+ *  selfPop 返回上一级
+ */
+- (void)selfPop;
+
+/**
+ *  selfPopRoot 返回最上级
+ */
+- (void)selfPopRoot;
+
+/**
  *  getData 获取数据
  */
 - (void)getData;
@@ -102,12 +112,12 @@
 /**
  *  onDismissViewController 关闭ViewController
  */
-- (void) onDismissViewController;
+- (void) closeActivity;
 
 /**
  *  onDismissViewControllerNotAnimated 关闭ViewController不带动画
  */
-- (void) onDismissViewControllerNotAnimated;
+- (void) closeActivityNotAnimated;
 
 /**
  *  弹下错误通知消息

@@ -8,6 +8,7 @@
 //
 
 #import "ThActivity.h"
+#import "MBProgressHUD.h"
 
 @interface ThActivity ()
 
@@ -101,7 +102,59 @@
 
 }
 
+- (void)StartModeNavVC:(UIViewController *)viewController {
+    UINavigationController *nv = [[UINavigationController alloc]
+            initWithRootViewController:viewController];
+    [self presentViewController:nv animated:YES completion:nil];
+}
 
+- (void)showLoading {
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+}
+
+- (void)hideLoading {
+    [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+}
+
+- (void)selfFinish {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void)selfDismiss {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void)selfPop {
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (void)selfPopRoot {
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
+
+- (void)showErrorMsg:(NSString *)sMsg {
+//    [TSMessage showNotificationInViewController:self title:@"错误" subtitle:sMsg type:TSMessageNotificationTypeError];
+//    [SVProgressHUD showErrorWithStatus:sMsg];
+//    [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+}
+
+- (void)showSuccessMsg:(NSString *)sMsg {
+//    [TSMessage showNotificationInViewController:self title:@"成功" subtitle:sMsg type:TSMessageNotificationTypeSuccess];
+//    [SVProgressHUD showSuccessWithStatus:sMsg];
+//    [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+}
+
+- (void)showMessageMsg:(NSString *)sMsg {
+//    [TSMessage showNotificationInViewController:self title:@"消息" subtitle:sMsg type:TSMessageNotificationTypeMessage];
+//    [SVProgressHUD showInfoWithStatus:sMsg];
+//    [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+}
+
+- (void)showWarningMsg:(NSString *)sMsg {
+//    [TSMessage showNotificationInViewController:self title:@"提醒" subtitle:sMsg type:TSMessageNotificationTypeWarning];
+//    [SVProgressHUD showSuccessWithStatus:sMsg];
+//    [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+}
 
 
 

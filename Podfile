@@ -47,7 +47,7 @@ target "ThFrameworkPods" do
   pod 'KVOController'
 #响应式变成,代替代理,KVO等
   pod 'ReactiveCocoa'
-  pod 'MyLayout', '~> 1.1.5'
+  # pod 'MyLayout', '~> 1.1.5'
   pod 'FMDB'
   pod 'YTKNetwork'
   pod 'Toast'

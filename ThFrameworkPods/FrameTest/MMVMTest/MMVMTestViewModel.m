@@ -34,7 +34,7 @@
 
     //通知
     [[[NSNotificationCenter defaultCenter] rac_addObserverForName:@"login" object:nil] subscribeNext:^(NSNotification *notification) {
-        DLog(@"%@",notification.object);
+        ALog(@"%@",notification.object);
     }];
 }
 @end
